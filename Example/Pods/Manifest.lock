@@ -1,0 +1,16 @@
+PODS:
+  - IOSDevice (0.1.0)
+
+DEPENDENCIES:
+  - IOSDevice (from `../`)
+
+EXTERNAL SOURCES:
+  IOSDevice:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IOSDevice: cc3edc479485e54dd226d3e76be08e9b8bac7eec
+
+PODFILE CHECKSUM: c628b6e12b313abbec8e4d43ddf78852732ac32a
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'IOSDevice_Tests' do
+  pod 'IOSDevice', :path => '../'
+  
+  
+end

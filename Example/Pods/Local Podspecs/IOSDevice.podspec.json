@@ -1,0 +1,22 @@
+{
+  "name": "IOSDevice",
+  "version": "0.1.0",
+  "summary": "A short description of IOSDevice.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/moon4ik@gmail.com/IOSDevice",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "moon4ik@gmail.com": "ole.mykhailenko@temabit.com"
+  },
+  "source": {
+    "git": "https://github.com/moon4ik@gmail.com/IOSDevice.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IOSDevice/Classes/**/*"
+}
