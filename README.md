@@ -1,2 +1,2 @@
-# iOSDevices
-iOS Devices info
+# iOSDevice
+iOS Device info
