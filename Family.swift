@@ -2,7 +2,7 @@
 //  Family.swift
 //  IOSDevice
 //
-//  Created by Oleksii on 1/10/19.
+//  Created by Oleksii Mykhailenko on 1/10/19.
 //
 
 import Foundation

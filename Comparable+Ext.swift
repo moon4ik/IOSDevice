@@ -1,8 +1,8 @@
 //
 //  Comparable+Ext.swift
+//  IOSDevice
 //
 //  Created by Oleksii Mykhailenko on 10/1/19.
-//  Copyright © 2018 Oleksii Mykhailenko. All rights reserved.
 //
 
 extension Comparable {
