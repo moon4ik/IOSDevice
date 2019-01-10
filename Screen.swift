@@ -7,41 +7,21 @@
 
 import Foundation
 
-postfix operator %
-
-postfix func % (percentage: Int) -> Double {
-    return (Double(percentage) / 100)
-}
-
-postfix func % (percentage: Double) -> Int {
-    return Int(percentage * 100)
-}
-
-
-
-//struct Percent: FixedWidthInteger, UnsignedInteger {
-//
-//}
-
 extension IOSDevice {
     
-    
-    
-    struct Brightness {
+    struct Screen {
         
-        func  bright() {
-            print(45%) // 0.45
-            print(0.45%) // 45
-        }
+        public static let width: CGFloat = UIScreen.main.bounds.width
+        public static let height: CGFloat = UIScreen.main.bounds.height
+        public static let resolution: String = "\(width)x\(height)"
         
         // 0 - 100
-        public static var level: UInt8 {
+        public static var brightness: UInt8 {
             get {
-                let currentBrightness = UInt8(UIScreen.main.brightness * 100)
-                return currentBrightness > 100 ? 100 : currentBrightness
+                return UInt8(UIScreen.main.brightness * 100)
             }
             set {
-                UIScreen.main.brightness = CGFloat(newValue) / 100
+                UIScreen.main.brightness = CGFloat(newValue.normolized(to: 0...100)) / 100
             }
         }
     }

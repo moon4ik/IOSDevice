@@ -26,14 +26,16 @@ public struct IOSDevice {
     public static var localizedModel: String {
         return UIDevice.current.localizedModel
     }
+}
+
+extension IOSDevice {
     
-//    public static var code: String {
-//        var systemInfo = utsname()
-//        uname(&systemInfo)
-//        let code: String = String(validatingUTF8: NSString(bytes: &systemInfo.machine,
-//                                                           length: Int(_SYS_NAMELEN),
-//                                                           encoding: String.Encoding.ascii.rawValue)!.utf8String!)!
-//        return code
-//    }
-    
+    public static var code: String {
+        var systemInfo = utsname()
+        uname(&systemInfo)
+        let code: String = String(validatingUTF8: NSString(bytes: &systemInfo.machine,
+                                                           length: Int(_SYS_NAMELEN),
+                                                           encoding: String.Encoding.ascii.rawValue)!.utf8String!)!
+        return code
+    }
 }
