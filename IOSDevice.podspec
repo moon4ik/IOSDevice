@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  'Get infor about iOS device: name, OS version, family etc...'
+  'Get information about iOS device: name, OS version, family etc...'
                        DESC
 
   s.homepage         = 'https://github.com/moon4ik/IOSDevice'

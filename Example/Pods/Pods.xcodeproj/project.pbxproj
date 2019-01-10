@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491CB86721E763D900D1CEFB /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CB86621E763D900D1CEFB /* Application.swift */; };
+		491CB86921E77EBD00D1CEFB /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CB86821E77EBD00D1CEFB /* Battery.swift */; };
+		491CB86B21E78D3D00D1CEFB /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CB86A21E78D3D00D1CEFB /* Screen.swift */; };
+		491CB86D21E7925400D1CEFB /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CB86C21E7925400D1CEFB /* Family.swift */; };
+		491CB86F21E792B800D1CEFB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CB86E21E792B800D1CEFB /* Model.swift */; };
 		64DBA6CDDB0AF22625072DCF2BFDCD27 /* IOSDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324682D9974DAAEA09705DA124FD55DB /* IOSDevice.swift */; };
 		75B49CB76B25CAF5F5CE9962BC2CC2AC /* Pods-IOSDevice_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BECAE8DFA1F73FAE6D1391DF002D70 /* Pods-IOSDevice_Tests-dummy.m */; };
 		7D5B20EC156BFDFB119AE6995FD3F18C /* Pods-IOSDevice_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C93F94B4DC4FDB1686D426C1E0FF09 /* Pods-IOSDevice_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +41,11 @@
 		324682D9974DAAEA09705DA124FD55DB /* IOSDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IOSDevice.swift; path = IOSDevice/Classes/IOSDevice.swift; sourceTree = "<group>"; };
 		3ABB45C63FBC7B4E71832466A68834C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		484871A9FCBBC1951DC5F3040FCC42DC /* IOSDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IOSDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		491CB86621E763D900D1CEFB /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		491CB86821E77EBD00D1CEFB /* Battery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery.swift; sourceTree = "<group>"; };
+		491CB86A21E78D3D00D1CEFB /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		491CB86C21E7925400D1CEFB /* Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
+		491CB86E21E792B800D1CEFB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5D409CFA00248FD92C9E44368B758A11 /* Pods_IOSDevice_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSDevice_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		655B88D06FA30505950DC3227968272B /* Pods-IOSDevice_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSDevice_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +181,11 @@
 			isa = PBXGroup;
 			children = (
 				324682D9974DAAEA09705DA124FD55DB /* IOSDevice.swift */,
+				491CB86621E763D900D1CEFB /* Application.swift */,
+				491CB86821E77EBD00D1CEFB /* Battery.swift */,
+				491CB86A21E78D3D00D1CEFB /* Screen.swift */,
+				491CB86C21E7925400D1CEFB /* Family.swift */,
+				491CB86E21E792B800D1CEFB /* Model.swift */,
 				2CD74D0A823309A33D3619459781E54E /* Pod */,
 				8E4A074E621B434B469864E2A7622165 /* Support Files */,
 			);
@@ -286,8 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491CB86F21E792B800D1CEFB /* Model.swift in Sources */,
+				491CB86B21E78D3D00D1CEFB /* Screen.swift in Sources */,
+				491CB86721E763D900D1CEFB /* Application.swift in Sources */,
+				491CB86921E77EBD00D1CEFB /* Battery.swift in Sources */,
 				D80403DFD9F1E9B1BF1E0535B9A63238 /* IOSDevice-dummy.m in Sources */,
 				64DBA6CDDB0AF22625072DCF2BFDCD27 /* IOSDevice.swift in Sources */,
+				491CB86D21E7925400D1CEFB /* Family.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
